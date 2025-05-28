@@ -12,7 +12,7 @@
 # # Para excluir algum dado dentro do dicionário usa-se o comando 'del' conforme exemplo abaixo:
 # del dados['idade']
 
-# # Mais exemplos de cada funciona o dicionário. 
+# Mais exemplos de cada funciona o dicionário.
 # filme = {'titulo':'Star Wars',
 #  'ano':1997,
 #  'diretor':'George Lucas'
@@ -20,7 +20,7 @@
 # }
 # print(filme)
 
-# # Diferença entre valores, chaves e itens. 
+# # Diferença entre valores, chaves e itens.
 # print(filme.values()) # Irar apresentar todos os valores do dicionário.
 # print(filme.keys()) # Irar apresentar todos os titulos do dicionário.
 # print(filme.items()) # Irar apresentar tanto os valores e titulos do dicionário.
@@ -33,7 +33,7 @@
 # #____________________________________________________________________________________
 
 # pessoas = {'Nome':'Ricardo','Sexo':'M', 'Idade': 30}
-# print(pessoas) # Irar aparecer todos os dados e elementos. 
+# print(pessoas) # Irar aparecer todos os dados e elementos.
 # print(pessoas['Nome']) # Ira apresentar o elemento nome
 # print(pessoas['Idade']) # Irar apresentar o elemento idade
 # print(pessoas['Sexo']) # Irar apresentar o elemento Sexo
@@ -60,11 +60,11 @@
 
 # brasil = [] # lista
 # estado1 = {'UF':'Rio de Janeiro', 'Sigla':'RJ'} # Dicionário
-# estado2 ={'UF':'São Paulo','Sigla': 'SP'} # Dicionário
+# estado2 = {'UF':'São Paulo','Sigla': 'SP'} # Dicionário
 # brasil.append(estado1) # Adicionando o dicionário estado1 dentro da lista brasil
 # brasil.append(estado2) # Adicionando o dicionário estado2 dentro da lista brasil
 
-# print(brasil)  # irar apresentar o que foi adiciona dentro da lista brasil 
+# print(brasil)  # irar apresentar o que foi adiciona dentro da lista brasil
 
 # brasil = [] # lista
 # estado1 = {'UF':'Rio de Janeiro', 'Sigla':'RJ'} # Dicionário
@@ -102,14 +102,14 @@
 
 # Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela.
 
-aluno = dict() # dicionário
-aluno['Nome'] = str(input('Nome: '))
-aluno['média'] = float(input(f'Média de {aluno["Nome"]}: '))
-if aluno['média'] >= 7:
-    aluno['Situação'] = 'Aprovado'
-elif 5 <= aluno['média'] < 7:
-    aluno['Situação'] = 'Recuperação'
-else:
-    aluno['Situação'] = 'Reprovado'
+# aluno = dict() # dicionário
+# aluno['Nome'] = str(input('Nome: '))
+# aluno['média'] = float(input(f'Média de {aluno["Nome"]}: '))
+# if aluno['média'] >= 7:
+#     aluno['Situação'] = 'Aprovado'
+# elif 5 <= aluno['média'] < 7:
+#     aluno['Situação'] = 'Recuperação'
+# else:
+#     aluno['Situação'] = 'Reprovado'
 
-print(aluno)
+# print(aluno)
